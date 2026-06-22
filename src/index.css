@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+/* CystaSense Design System */
+:root {
+  --forbidden-rose: #B46595;
+  --blush-sin: #E19FC7;
+  --nocturnal-ink: #130E12;
+  --dust-veil: #E4DDCB;
+  --enchanted-wine: #4C042D;
+  --crimson-curse: #340417;
+  --surface: #1C151B;
+  --surface-2: #241A23;
+  --text-primary: #E4DDCB;
+  --text-muted: #8B7D87;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--nocturnal-ink);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--nocturnal-ink);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--forbidden-rose);
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--forbidden-rose);
+  color: var(--dust-veil);
+}
